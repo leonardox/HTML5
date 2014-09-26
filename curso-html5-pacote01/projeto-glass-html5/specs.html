@@ -4,7 +4,8 @@
     <head>
         <meta charset = "UTF-8"/>
         <title>Tudo sobre o Google Glass</title>
-        <link rel="stylesheet" type="text/css" href="_css/estilo.css">
+        <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+        <link rel="stylesheet" href="_css/specs.css"/>
     </head>
     <script src="_javascript/funcoes.js"></script>
     <body>
@@ -28,18 +29,33 @@
                     </ul>
                 </nav>
             </header>
+            <section id="corpo-full">
+                <article id="noticia-principal">
+                    <header id="cabecalho-artigo">
+                        <hgroup>
+                            <h3>Glass > Especificações</h3>
+                            <h1>Raio-X no Google Glass</h1>
+                            <h2>por Leonardo Cordeiro</h2>
+                            <h3 class="direita">Atualizado em 30/Setembro/2014</h3>
+                        </hgroup>
+                    </header>
 
-Glass > Especificações
-Raio-X no Google Glass
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+                    <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+                    <section id="conteudo">
+                        <img src="_imagens/glass-esquema-marcado.jpg" usemap="#mapa-imagem">
+                        <map name="mapa-imagem">
+                            <area shape="poly" coords="182,219, 264,207, 266,244, 184,256" href="google-glass.html#tela" target="frame-spec"/>
+                            <area shape="circle" coords="157,243, 10" href="google-glass.html#camera" target="frame-spec"/>
+                            <area shape="circle" coords="77,52, 12" href="google-glass.html#gadgets" target="frame-spec"/>
+                            <area shape="poly" coords="27,145, 82,216, 83,252, 26,170" href="google-glass.html#sensores" target="frame-spec">
+                        </map>
 
-Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
-
-[AQUI ENTRA UMA IMAGEM]
-
+                        <iframe src="google-glass.html" name="frame-spec" id="frame-spec" scrolling="no"></iframe>
+                    </section>
+                </article>
+            </section>
             <footer id="rodape">
-                <p>Copyright 2014 - by Leonardo Cordeiro <br/>
+                <p>&copy; Copyright 2014 - by Leonardo Cordeiro <br/>
                     <a href="http://facebook.com/leo.cc14" target="_blank">Facebook</a> | <a href="http://twitter.com/leo_carvalhoc" target="_blank">Twitter</a></p>
             </footer>
         </div>
